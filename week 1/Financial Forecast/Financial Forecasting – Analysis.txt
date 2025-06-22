@@ -1,0 +1,16 @@
+Financial Forecasting – Recursive Function  
+  
+Recursion  
+ => Recursion is a programming technique where a method calls itself repeatedly to solve smaller subproblems of a larger problem.
+ => It continues until it reaches a base case that stops the recursion.  
+ In this assignment, recursion was used to simulate compound growth by calculating future financial values year by year.
+
+Complexity Analysis:  
+ => Time Complexity : O(n), where n is the number of years  
+ => Space Complexity : O(n), due to recursive stack calls  
+ Each recursive call represents one year of forecasting, and the process continues until the base case is reached.
+
+Optimization:  
+ In problems with overlapping computations (like Fibonacci), recursion should be optimized using:
+ => Memoization (store already computed values)  
+ => Iteration, which avoids extra stack usage

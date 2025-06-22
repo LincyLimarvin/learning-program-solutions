@@ -1,0 +1,24 @@
+  E-Commerce Platform Search Function
+
+  Big O Notation:
+  => Big O Notation describes how the performance of an algorithm scales as the input size (n) increases.
+  => It allows us to compare different algorithms based on time and space complexity, independent of hardware or language.
+
+  Best, Average, and Worst Case Analysis:
+
+     | Scenario      | Linear Search        | Binary Search (on sorted array) |
+     |---------------|----------------------|---------------------------------|
+     | Best Case     | O(1) (first item)    | O(1) (middle item)              |
+     | Average Case  | O(n/2) => O(n)       | O(log n)                        |
+     | Worst Case    | O(n) (last/missing)  | O(log n) (search fails)         |
+
+  Time Complexity Analysis:
+
+   => Linear Search has a time complexity of O(n). 
+   => It checks each element one by one, making it inefficient for large datasets. 
+   => However, it does not require the data to be sorted, making it suitable for small or unordered collections.                              
+
+   => Binary Search offers a time complexity of O(log n), which is much faster for large datasets. 
+   => It works only on sorted arrays, and repeatedly divides the search range in half. 
+
+   Therefore, Binary Search is the preferred choice in performance-sensitive scenarios where data is already sorted or can be sorted in advance.
